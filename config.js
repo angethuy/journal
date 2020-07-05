@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://pagotometer.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Pagotometer - Project Blog',
+  subtitle: 'A collection space for materials pertaining to Project Pagotometer.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,22 +12,22 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Journal',
       path: '/'
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: 'SRS document',
+      path: '/pages/srs'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Wireframes',
+      path: '/pages/wireframes'
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Project Pagotometer',
+    photo: '/pagotometer.png',
+    bio: 'Development journal + materials pertaining to Project Pagotometer.',
     contacts: {
       email: '',
       facebook: '#',
